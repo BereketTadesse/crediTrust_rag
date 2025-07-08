@@ -1,0 +1,49 @@
+# =========================================
+# Data Files - DO NOT COMMIT LARGE DATA
+# =========================================
+# Ignore the raw 5GB CSV file
+complaints.csv
+
+# Ignore the entire 'data' directory and its contents
+# This ensures the filtered_complaints.csv is also not tracked.
+data/
+
+# If you decide later to commit the 'data' directory but NOT the csv inside,
+# you would comment out 'data/' above and use this line instead:
+# data/*.csv
+
+
+# =========================================
+# Python & Virtual Environment
+# =========================================
+# Ignore the virtual environment folder
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# =o=======================================
+# Jupyter Notebook & IDE Files
+# =========================================
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore environment variable files
+.env
+
+
+# =========================================
+# OS-specific files
+# =========================================
+.DS_Store
+Thumbs.db
